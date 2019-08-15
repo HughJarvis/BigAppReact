@@ -63,7 +63,7 @@ class ComplimentContainer extends Component {
             <h2>{this.state.compliment}</h2>
 
             <div className="praise_button">
-              <button className="praise_me" onClick={this.handleBigAppButtonClick}><p><strong>Click for praise</strong></p></button>
+              <button className="praise_me" onClick={this.handleBigAppButtonClick}><p><strong>Click for more praise</strong></p></button>
             </div>
 
           </div>
