@@ -6,7 +6,7 @@ class ComplimentContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
-      compliment: "You are awesome, thanks for checking this out",
+      compliment: "Thanks for checking this out, you lovely human being",
       friendsTwitter: ""
     }
 
@@ -74,6 +74,10 @@ class ComplimentContainer extends Component {
             <input className="twitter_handle" type="text" name="twitter_handle" placeholder="Enter a pal's Twitter handle here" onChange={this.handleFriend} value={this.state.friendsTwitter}/>
             <button className="send_tweet" onClick={this.handleTweetYourFriend}><p>Tweet my mate!</p></button>
           </form>
+
+          <div>
+            <p>©Copyright BigAppYourself 2019</p>
+          </div>
 
 
         </div>
