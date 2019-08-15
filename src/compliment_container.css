@@ -179,3 +179,7 @@ input.twitter_handle {
   border-radius: 4px;
   border: 1px solid #ccc;
 }
+.copyright p {
+  font-size: 10px;
+  margin-left: 40px;
+}

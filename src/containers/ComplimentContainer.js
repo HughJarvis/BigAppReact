@@ -6,7 +6,7 @@ class ComplimentContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
-      compliment: "Thanks for checking this out, you lovely human being",
+      compliment: "Thanks for checking this out, you are awesome",
       friendsTwitter: ""
     }
 
@@ -75,8 +75,8 @@ class ComplimentContainer extends Component {
             <button className="send_tweet" onClick={this.handleTweetYourFriend}><p>Tweet my mate!</p></button>
           </form>
 
-          <div>
-            <p>©Copyright BigAppYourself 2019</p>
+          <div className="copyright">
+            <p>© Copyright BigAppYourself 2019</p>
           </div>
 
 
