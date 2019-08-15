@@ -76,7 +76,7 @@ class ComplimentContainer extends Component {
           </form>
 
           <div className="copyright">
-            <p>© Copyright BigAppYourself 2019</p>
+            <p>© BigAppYourself 2019</p>
           </div>
 
 
