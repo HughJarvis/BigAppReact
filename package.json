@@ -1,6 +1,9 @@
 {
   "name": "bigappyourself_react",
   "version": "0.1.0",
+  "engines": {
+    "node": "11.10.0"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
