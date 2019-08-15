@@ -6,8 +6,7 @@ class ComplimentContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
-      user: null,
-      compliment: "You are awesome, thanks for being here",
+      compliment: "You are awesome, thanks for checking this out",
       friendsTwitter: ""
     }
 
