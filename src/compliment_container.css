@@ -9,10 +9,10 @@
   top: 20px;
   margin: auto;
   background-color: yellow;
-  max-width: 650px;
+  max-width: 500px;
 
   border: solid 8px black;
-  border-radius: 60px;
+  border-radius: 40px;
   box-shadow: 10px 8px 8px #36454f ;
 }
 .greeting {
@@ -31,15 +31,12 @@
 }
 
 .praise_me {
-  align-right: content;
   position: relative;
-  left: 425px;
-
-  height: 60px;
+  height: 50px;
 }
 
 .praise_me h2 {
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 1px;
 
@@ -57,7 +54,7 @@
   position: absolute;
   left: 120px;
   top: 35px;
-  font-size: 35px;
+  font-size: 23px;
 }
 
 
@@ -65,7 +62,7 @@
 h1 {
   margin-top: 20px;
   margin: 0px;
-  font-size: 28px;
+  font-size: 23px;
 }
 
 /* label {
@@ -98,7 +95,7 @@ button p {
 }
 
 button.praise_me p {
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 0px;
 }
 
@@ -129,16 +126,18 @@ button.send_tweet {
   margin-bottom: 20px;
   margin-left: 20px;
   height: 44px;
+  width: 30%;
 }
 
 
 .compliment {
   text-align: center;
+  align-content: center;
   background-color: white;
   padding: 20px;
   border: 4px solid black;
   min-height: 170px;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-left: 40px;
   margin-right: 40px;
   border-radius: 20px;
@@ -146,7 +145,7 @@ button.send_tweet {
 }
 
 .compliment h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* form.tweet_mate {
@@ -160,21 +159,22 @@ button.send_tweet {
   margin-top: 0;
   margin-left: 20px;
   margin-right: 40px;
+
 }
 
 h3  {
-  font-size: 18px;
+  font-size: 12px;
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 10px;
 }
 
 input.twitter_handle {
-  font-size: 1em;
+  font-size: 15px;
   padding: 12px;
-  min-width: 240px;
+  width: 45%;
   margin-left: 40px;
-  margin-right: 10px;
+  margin-right: auto;
   margin-bottom: 20px;
   border-radius: 4px;
   border: 1px solid #ccc;
