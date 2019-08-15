@@ -26,7 +26,7 @@ class ComplimentContainer extends Component {
   handleBigAppButtonClick(){
     // console.log("BigAppYourself has been clicked");
     const request = new Request();
-    request.get('/compliment')
+    request.get('https://bigappyourselfspring.herokuapp.com/compliment')
     .then((data) => {
       this.setState({compliment: data[0]})
       })
@@ -41,7 +41,7 @@ class ComplimentContainer extends Component {
 
     const request = new Request();
     if(this.state.friendsTwitter !== ""){
-    request.get('/compliment/tweet/'+ this.state.friendsTwitter)
+    request.get('https://bigappyourselfspring.herokuapp.com/compliment/tweet/'+ this.state.friendsTwitter)
     .then((data) => {
       window.location = '/'
     })
