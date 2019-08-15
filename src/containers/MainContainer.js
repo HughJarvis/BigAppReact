@@ -10,8 +10,6 @@ const MainContainer = () => {
         <React.Fragment>
           <Switch>
             <Route exact path="/" component={ComplimentContainer} />
-            // <Route path="/compliment" component={ComplimentContainer} />
-            // <Route path="/register" component={UserRegistrationContainer} />
           </Switch>
         </React.Fragment>
       </Router>
