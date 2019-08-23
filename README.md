@@ -1,4 +1,4 @@
-Front-end for Big App Yourself praise bot and compliment generator (http://bigappyourself.co.uk)
+Front-end for Big App Yourself praise bot and compliment generator (http://www.bigappyourself.co.uk)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
