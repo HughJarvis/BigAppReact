@@ -22,7 +22,8 @@ class ComplimentContainer extends Component {
     //   this.setState({compliment: data})
     //   })
   }
-
+//function to request a fresh compliment from Java/Spring back-end and reset the
+//state to the new compliment
   handleBigAppButtonClick(){
     // console.log("BigAppYourself has been clicked");
     const request = new Request();
@@ -37,8 +38,9 @@ class ComplimentContainer extends Component {
     this.setState({friendsTwitter: event.target.value})
   }
 
+//function takes the Twitter handle entered and sends it to the back-end, which takes the
+//handle and tweets a fresh compliment
   handleTweetYourFriend(event){
-
     const request = new Request();
     if(this.state.friendsTwitter !== ""){
     request.get('https://bigappyourselfspring.herokuapp.com/compliment/tweet/'+ this.state.friendsTwitter)
