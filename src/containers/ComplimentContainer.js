@@ -7,13 +7,22 @@ class ComplimentContainer extends Component {
     super(props);
     this.state = {
       compliment: "Thanks for checking this out, you are awesome",
-      friendsTwitter: ""
+      friendsTwitter: "",
+      followers: []
     }
 
     this.handleBigAppButtonClick = this.handleBigAppButtonClick.bind(this);
     this.handleFriend = this.handleFriend.bind(this);
     this.handleTweetYourFriend = this.handleTweetYourFriend.bind(this);
   }
+
+  // componentDidMount(){
+  //   const request = new Request();
+  //   request.get('https://bigappyourselfspring.herokuapp.com/compliment/all')
+  //   .then((data) => {
+  //     this.setState({followers: data})
+  //   })
+  // }
 
   componentWillMount(){
     // const request = new Request();
@@ -29,9 +38,8 @@ class ComplimentContainer extends Component {
     const request = new Request();
     request.get('https://bigappyourselfspring.herokuapp.com/compliment')
     .then((data) => {
-      this.setState({compliment: data[0]})
+      this.setState({compliment: data["content"]})
       })
-
   }
 
   handleFriend(event){
